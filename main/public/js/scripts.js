@@ -4,7 +4,7 @@ $(function(){
 	$('form').live('submit', function(event) {
 	
 		event.preventDefault();
-		var email = 'youremail@address.com';
+		var email = 'jbarlach@gmail.com';
 		var subject = $('#form-subject').val();
 		var body = $('#form-message').val();
 		
